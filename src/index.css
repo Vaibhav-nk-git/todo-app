@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #202124;
+  color: #868686;
 }
 
 h1,
@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #000000;
   gap: 14px;
 }
 
@@ -44,7 +44,7 @@ header input {
 }
 
 header button {
-  border-radius: 14px;
+  border-radius: 13px;
   background: transparent;
   transition-duration: 200ms;
   cursor: pointer;
@@ -59,11 +59,12 @@ header input {
   padding: 14px 18px;
   border: none;
   outline: none;
-  background: white;
+  background: #202124;
 }
 
 p {
   font-size: 0.9em;
+  
 }
 
 .main {
@@ -79,7 +80,8 @@ p {
   margin-top: 15px;
   padding: 14px;
   border-radius: 10px;
-  background: white;
+  background:#202124;
+
 }
 
 .todoItem p {
@@ -98,12 +100,16 @@ p {
   background: transparent;
   cursor: pointer;
   
+  
 }
 
 .actionsContainer button:hover {
   opacity: 0.7;
 }
-
+.actionsContainer button i {
+  color:azure;
+  
+}
 
 
 @media (min-width: 640px) {

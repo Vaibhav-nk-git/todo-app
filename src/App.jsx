@@ -46,7 +46,12 @@ function handleEditTodo(index){
 
   return (
     <>
+    <div>
+      <h1>Todo App</h1>------------------------------------
+    </div>
+    <div></div>
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodo={handleAddTodo}/>
+      <div></div>
       <TodoList handleEditTodo={handleEditTodo} handleDeleteTodo={handleDeleteTodo} todos = {todos} />
       
     </>

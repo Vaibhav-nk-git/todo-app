@@ -8,13 +8,13 @@ export default function TodoCard(props) {
         <li className='todoItem'>
         {children}
 
-        <div className='actionContainer'>
+        <div className='actionsContainer'>
 
         <button onClick={()=>handleEditTodo(index)}>
         <i className="fa-solid fa-pen-to-square"/>
         </button>
 
-        <span style={{ margin: '0px 15px' }}></span>
+        <span style={{ margin: '0px 10px' }}></span>
 
         <button onClick={()=>{handleDeleteTodo(index)}}>
         <i className="fa-solid fa-trash-can"/>
