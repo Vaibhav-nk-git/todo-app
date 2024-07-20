@@ -9,5 +9,5 @@ npm run build
 
 
  
-Check out the deployed app
-https://main--gleeful-kitten-41b001.netlify.app/
+Check out the deployed app:
+https://react-todo-app-crud.netlify.app/
